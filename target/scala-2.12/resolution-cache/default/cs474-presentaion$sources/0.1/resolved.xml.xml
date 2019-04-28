@@ -4,7 +4,7 @@
 		module="cs474-presentaion$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190428150551"
+		publication="20190428151119"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
