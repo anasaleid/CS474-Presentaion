@@ -1,1 +1,1 @@
-Yeah i dont think this pattern will work, gonna have to switch
+The pattern is the Strategy pattern. Basically the strategy pattern exists to switch between algorithms at runtime. A good spin could be to say because functions are objects in scala, this pattern made void? check this link https://alvinalexander.com/scala/how-scala-killed-oop-strategy-design-pattern
