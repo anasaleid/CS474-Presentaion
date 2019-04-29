@@ -1,1 +1,3 @@
-The pattern is the Strategy pattern. Basically the strategy pattern exists to switch between algorithms at runtime. A good spin could be to say because functions are objects in scala, this pattern made void? check this link https://alvinalexander.com/scala/how-scala-killed-oop-strategy-design-pattern
+This project is compiled with sbt. If you are using intellij, just download the sbt plugin from the marketplace. If not, you should be able to just download and run it from the sbt console.
+
+Using the command "sbt run" the program should execute
