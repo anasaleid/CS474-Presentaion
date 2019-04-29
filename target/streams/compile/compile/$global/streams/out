@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/project/target/.sbt-compilation-infos/cs474-presentaion-compile/.sbt-idea-lock ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:50:14: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m      return 90[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:50:7: enclosing method getLatestRuns has result type Unit: return value discarded[0m
+[0m[[0m[33mwarn[0m] [0m[0m      return 90[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:57:14: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m      return 2[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:57:7: enclosing method getLatestWickets has result type Unit: return value discarded[0m
+[0m[[0m[33mwarn[0m] [0m[0m      return 2[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:64:14: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m      return 10.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:64:7: enclosing method getLatestOvers has result type Unit: return value discarded[0m
+[0m[[0m[33mwarn[0m] [0m[0m      return 10.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:15:7: class CricketData needs to be abstract, since:[0m
+[0m[[0m[31merror[0m] [0m[0mit has 4 unimplemented members.[0m
+[0m[[0m[31merror[0m] [0m[0m/** As seen from class CricketData, the missing signatures are as follows.[0m
+[0m[[0m[31merror[0m] [0m[0m *  For convenience, these are usable as stub implementations.[0m
+[0m[[0m[31merror[0m] [0m[0m */[0m
+[0m[[0m[31merror[0m] [0m[0m  val observerList: List[Observer] = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  val overs: Float = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  val runs: Int = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  val wickets: Int = ???[0m
+[0m[[0m[31merror[0m] [0m[0mclass CricketData extends Subject[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:80:7: class AverageScoreDisplay needs to be abstract, since:[0m
+[0m[[0m[31merror[0m] [0m[0mit has 2 unimplemented members.[0m
+[0m[[0m[31merror[0m] [0m[0m/** As seen from class AverageScoreDisplay, the missing signatures are as follows.[0m
+[0m[[0m[31merror[0m] [0m[0m *  For convenience, these are usable as stub implementations.[0m
+[0m[[0m[31merror[0m] [0m[0m */[0m
+[0m[[0m[31merror[0m] [0m[0m  val predictedScore: Int = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  val runRate: Float = ???[0m
+[0m[[0m[31merror[0m] [0m[0mclass AverageScoreDisplay extends Observer[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/src/main/scala/Demo.scala:102:7: class CurrentScoreDisplay needs to be abstract, since:[0m
+[0m[[0m[31merror[0m] [0m[0mit has 3 unimplemented members.[0m
+[0m[[0m[31merror[0m] [0m[0m/** As seen from class CurrentScoreDisplay, the missing signatures are as follows.[0m
+[0m[[0m[31merror[0m] [0m[0m *  For convenience, these are usable as stub implementations.[0m
+[0m[[0m[31merror[0m] [0m[0m */[0m
+[0m[[0m[31merror[0m] [0m[0m  val overs: Float = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  val runs: Int = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  val wickets: Int = ???[0m
+[0m[[0m[31merror[0m] [0m[0mclass CurrentScoreDisplay extends Observer[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/abigayleturner/Documents/temp-cole/CS474-Presentaion/project/target/.sbt-compilation-infos/cs474-presentaion-compile/.sbt-idea-lock.[0m
